@@ -19,7 +19,7 @@
 #
 # Visit SlackPack at http://sotirov-bg.net/slackpack/
 #
-# $Id: ltrace.SlackBuild,v 1.1 2014/04/27 11:38:39 gsotirov Exp $
+# $Id: ltrace.SlackBuild,v 1.2 2014/04/27 11:38:39 gsotirov Exp $
 #
 
 . ../slack-package.conf
@@ -70,6 +70,7 @@ make -j4 || exit 5
 make DESTDIR=$PKG install || exit 6
 
 # Prepare
+rm -rf $PKG/usr/share
 bin_perms $PKG
 ( cd $PKG; strip_bin )
 ( cd $SRC; create_docs $PKG $NAME-$VERSION )
