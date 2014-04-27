@@ -1,2 +1,2 @@
-glibc-solibs >= 2.9
-libelf >= 0.8.10
+glibc-solibs >= 2.11.1
+libelf >= 0.8.11
