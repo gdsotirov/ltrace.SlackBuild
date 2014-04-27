@@ -1,0 +1,11 @@
+ltrace: ltrace (a runtime shared library calls tracer)
+ltrace:
+ltrace: ltrace intercepts and records dynamic library calls which are called
+ltrace: by an executed process and the signals received by that process. It
+ltrace: can also intercept and print the system calls executed by the program.
+ltrace:
+ltrace: ltrace was originally authored by Juan Cespedes.
+ltrace:
+ltrace:
+ltrace:
+ltrace: Packaged by Georgi D. Sotirov <gdsotirov@dir.bg>
